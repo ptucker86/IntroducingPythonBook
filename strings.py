@@ -6,6 +6,10 @@ When the door squeezed her flat,
 She exclaimed, "What of that?"
 This courageous Young Lady of Norway.'''
 print(poem)
+print(len(poem))
+word = "the"
+print(poem.find(word))
+print(poem.count(word))
 
 palindrome = 'A man,\nA plan,\nA canal:\nPanama.'
 print(palindrome)
@@ -17,3 +21,4 @@ start = 'Na ' * 4 + '\n'
 middle = 'Hey ' * 3 + '\n'
 end = 'Goodbye.'
 print(start + start + middle + end)
+
