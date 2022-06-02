@@ -36,3 +36,11 @@ class BabblingBrook():
 
 brook = BabblingBrook()
 print(brook.who(), brook.says())
+
+def who_says(obj):
+    print(obj.who(), 'says', obj.says())
+
+who_says(hunter)
+who_says(hunted1)
+who_says(hunted2)
+who_says(brook)
